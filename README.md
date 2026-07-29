@@ -15,7 +15,8 @@ Description:<br>
 •	PC0 and PC1 are assigned to VLAN 10.<br>
 •	PC2 and PC3 are assigned to VLAN 20.<br>
 •	All PCs are connected to different ports on the same switch.<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e67cf476-d24e-4c33-a614-9c42dff4ad54" />
+
 ________________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port<br>
@@ -61,9 +62,18 @@ Switch(config-if-range)# exit<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on switch<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/8bff1149-8c5a-461a-894a-be3af852a910" />
+
 •	PC IP settings<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/6c878c26-9eb0-44ad-a578-52af02e48e63" />
+
 •	Successful ping between PCs in the same VLAN<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ed6b5edb-df86-4593-bf11-80f931ccb4a7" />
+
 •	Failed ping between PCs in different VLANs<br>
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/daeeaa0b-0cde-4173-baec-2ea5d792db88" />
+
+
 ________________________________________
 # Result
 Successfully created and configured VLANs on a managed switch. Verified that only PCs within the same VLAN could communicate with each other.
